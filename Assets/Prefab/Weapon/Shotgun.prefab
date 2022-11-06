@@ -98,8 +98,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _label: "\u0414\u0440\u043E\u0431\u043E\u0432\u0438\u043A"
-  price: 800
+  _price: 0
   _icon: {fileID: 21300000, guid: eee0e60c59a2c22449948b38e3e90a9f, type: 3}
-  _isBuyed: 1
+  _isBuyed: 0
   Bullet: {fileID: 0}
   ShotgunBullet: {fileID: 4588738006606944307, guid: 4ea78d6f93d947f448c297c70fe9882d, type: 3}
+  UziBullet: {fileID: 0}
+  RiffleBullet: {fileID: 0}
+  Damage: 0
