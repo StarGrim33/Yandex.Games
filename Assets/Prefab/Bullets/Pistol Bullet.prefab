@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 10
   _speed: 8
+  Impact02: {fileID: 6192724089161036641, guid: e17d9a3f04750764c8c0a7a0461e4c3b, type: 3}
+  _direction: {x: 0, y: 0, z: 0}
 --- !u!61 &4007036567598188650
 BoxCollider2D:
   m_ObjectHideFlags: 0
