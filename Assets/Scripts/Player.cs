@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     private Weapon _currentWeapon;
     private int _currentHealth;
     private Animator _animator;
+    private float _delay = 1f;
+
     public int Money { get; private set; }
     public event UnityAction<int, int> HealthChanged;
     public event UnityAction<int> MoneyChanged;
@@ -44,7 +46,14 @@ public class Player : MonoBehaviour
         _currentHealth -= damage;
         HealthChanged?.Invoke(_currentHealth, _health);
         if (_currentHealth <= 0)
-            Destroy(gameObject);
+        {
+            _animator.Play("Player dead");
+            Invoke("Destroy", _delay);
+        }
+    }
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 
     public void AddMoney(int money)
