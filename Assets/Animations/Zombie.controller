@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-8154189663064027116
+--- !u!1102 &-5332989329796382459
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orc celebration
+  m_Name: Zombie walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,20 +20,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: da26e2af0c3cf674092cd9bcbd7d4065, type: 2}
+  m_Motion: {fileID: 7400000, guid: 559813fbd188105488ddde672b865c10, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5781299212513160737
+--- !u!1102 &-3716368057343657605
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orc attack
+  m_Name: Zombie celebration
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -46,7 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7aebcadd5b1e0e448b0ec86fcc61c9e2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6f2bad7653a394b4fb1d48edce0c7f3d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -58,13 +58,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orc
+  m_Name: Zombie
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: 7917632212070977557}
+    m_StateMachine: {fileID: 2182567706185763965}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -74,14 +74,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1461965659804441179
+--- !u!1102 &440344456118128419
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orc idle
+  m_Name: Zombie attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -94,13 +94,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f8ac1c0b67d64a54886b7c440a524a5c, type: 2}
+  m_Motion: {fileID: 7400000, guid: b6c0e0eb8c22f044abbc4c5685bc88f0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1107 &7917632212070977557
+--- !u!1107 &2182567706185763965
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -110,14 +110,14 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1461965659804441179}
-    m_Position: {x: 270, y: 120, z: 0}
+    m_State: {fileID: -5332989329796382459}
+    m_Position: {x: 270, y: 110, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5781299212513160737}
-    m_Position: {x: 510, y: 110, z: 0}
+    m_State: {fileID: 440344456118128419}
+    m_Position: {x: 550, y: 50, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -8154189663064027116}
-    m_Position: {x: 520, y: 170, z: 0}
+    m_State: {fileID: -3716368057343657605}
+    m_Position: {x: 550, y: 130, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -127,4 +127,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1461965659804441179}
+  m_DefaultState: {fileID: -5332989329796382459}

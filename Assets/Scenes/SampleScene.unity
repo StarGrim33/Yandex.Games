@@ -4891,9 +4891,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waves:
-  - Template: {fileID: 4044622052281182577, guid: 52ebf5133877d634bb676200c19d3e9a, type: 3}
+  - Template: {fileID: 749191881180235799, guid: 45ef10091ea77514f8e6e0af7051eb70, type: 3}
     Delay: 1
-    Count: 5
+    Count: 10
   - Template: {fileID: 717293704554868377, guid: d3ddfc415d8bd03479263fc67904fd85, type: 3}
     Delay: 1
     Count: 5
@@ -4907,7 +4907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699805245}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.12, y: -3.74, z: -0.039900016}
+  m_LocalPosition: {x: 11.03, y: -3.72, z: -0.039900016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6295,7 +6295,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
