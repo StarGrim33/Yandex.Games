@@ -1894,7 +1894,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b71a194df12ead4da4aaa72509ab90f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.535
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5001,20 +5001,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _waves:
   - Template: {fileID: 4044622052281182577, guid: 52ebf5133877d634bb676200c19d3e9a, type: 3}
-    Delay: 2
+    Delay: 1
     Count: 1
-  - Template: {fileID: 717293704554868377, guid: d3ddfc415d8bd03479263fc67904fd85, type: 3}
-    Delay: 3
-    Count: 5
-  - Template: {fileID: 749191881180235799, guid: 45ef10091ea77514f8e6e0af7051eb70, type: 3}
+  - Template: {fileID: 723057056461800390, guid: 1600a7802a162d749b1127bee8538371, type: 3}
     Delay: 2
-    Count: 10
+    Count: 8
   - Template: {fileID: 749191881180235799, guid: 45ef10091ea77514f8e6e0af7051eb70, type: 3}
     Delay: 2
     Count: 12
+  - Template: {fileID: 4044622052281182577, guid: 52ebf5133877d634bb676200c19d3e9a, type: 3}
+    Delay: 2
+    Count: 12
+  - Template: {fileID: 717293704554868377, guid: d3ddfc415d8bd03479263fc67904fd85, type: 3}
+    Delay: 1
+    Count: 8
+  - Template: {fileID: 6336475691394488631, guid: 28acde5ef0432134ba6c645ea66b6eef, type: 3}
+    Delay: 1
+    Count: 5
+  - Template: {fileID: 5466597618919308326, guid: aa899e1027a3a9c42ae3a89c73b2564e, type: 3}
+    Delay: 1
+    Count: 3
   - Template: {fileID: 723057056461800390, guid: 1600a7802a162d749b1127bee8538371, type: 3}
     Delay: 1
-    Count: 1
+    Count: 3
+  - Template: {fileID: 4044622052281182577, guid: 52ebf5133877d634bb676200c19d3e9a, type: 3}
+    Delay: 1
+    Count: 15
+  - Template: {fileID: 749191881180235799, guid: 45ef10091ea77514f8e6e0af7051eb70, type: 3}
+    Delay: 1
+    Count: 15
   _spawnPoint: {fileID: 1699805247}
   _player: {fileID: 2070269872}
 --- !u!4 &1699805247
