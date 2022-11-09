@@ -15,8 +15,7 @@ public class Player : MonoBehaviour
     private Weapon _currentWeapon;
     private int _currentHealth;
     private Animator _animator;
-    private float _delay = 1f;
-
+    private float _delay = 2f;
     public int Money { get; private set; }
     public event UnityAction<int, int> HealthChanged;
     public event UnityAction<int> MoneyChanged;

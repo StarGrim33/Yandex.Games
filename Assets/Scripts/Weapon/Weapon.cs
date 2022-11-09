@@ -22,11 +22,6 @@ public abstract class Weapon : MonoBehaviour
 
     public abstract void Shoot(Transform shootPoint);
 
-    protected void Awake()
-    {
-        
-    }
-
     public void Buy()
     {
         _isBuyed = true;

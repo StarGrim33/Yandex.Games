@@ -1,14 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-public class ZombieAttack : State
+[RequireComponent(typeof(Animator))]
+public class AttackSlug : State
 {
     [SerializeField] private int _damage;
     [SerializeField] private float _delay;
     private Animator _animator;
     private float _lastAttackTime;
-    private void Start()
+
+    private void Awake()
     {
         _animator = GetComponent<Animator>();
     }
@@ -21,10 +21,11 @@ public class ZombieAttack : State
         }
         _lastAttackTime -= Time.deltaTime;
     }
-
+   
     private void Attack(Player target)
     {
-        _animator.Play("Zombie attack");
+        _animator.Play("Slug attack");
         target.ApplyDamage(_damage);
     }
 }
+

@@ -208,7 +208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc956da4e2078c5459ff5f2a3a607078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitions: []
+  transitions:
+  - {fileID: 9067977969114664026}
   _damage: 35
   _delay: 1
 --- !u!114 &9067977969114664026

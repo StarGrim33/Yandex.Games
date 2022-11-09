@@ -4891,9 +4891,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waves:
-  - Template: {fileID: 749191881180235799, guid: 45ef10091ea77514f8e6e0af7051eb70, type: 3}
+  - Template: {fileID: 6336475691394488631, guid: 28acde5ef0432134ba6c645ea66b6eef, type: 3}
     Delay: 1
-    Count: 10
+    Count: 2
   - Template: {fileID: 717293704554868377, guid: d3ddfc415d8bd03479263fc67904fd85, type: 3}
     Delay: 1
     Count: 5
@@ -6209,7 +6209,7 @@ GameObject:
   - component: {fileID: 2070269872}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6313,10 +6313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a0b62abefa776458f72359b35ab600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 100
+  _health: 150
   _weapons:
   - {fileID: 680650315477117982, guid: f4edc6bca074d9844b527fd1af3d4a0b, type: 3}
   _shootPoint: {fileID: 746075125}
+  _light: {fileID: 0}
   startTimeBetweenShots: 0.75
 --- !u!1 &2117888406
 GameObject:
