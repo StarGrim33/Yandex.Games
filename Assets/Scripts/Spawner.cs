@@ -48,6 +48,7 @@ public class Spawner : MonoBehaviour
     private void InstantiateEnemy()
     {
         Enemy enemy = Instantiate(_currentWave.Template, _spawnPoint.position, _spawnPoint.rotation, _spawnPoint).GetComponent<Enemy>();
+        enemy.Dying += OnEnemyDying;
         enemy.Init(_player);
     }
 
@@ -60,7 +61,8 @@ public class Spawner : MonoBehaviour
 
     public void NextWave()
     {
-        SetWave(++_currentWaveNumber);
+        _currentWaveNumber++;
+        SetWave(_currentWaveNumber);
         _spawned = 0;
     }
     private void OnEnemyDying(Enemy enemy)

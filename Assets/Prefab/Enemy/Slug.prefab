@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: -1998141964542852118}
   - component: {fileID: 2475038494729942689}
   - component: {fileID: 40533697590304800}
+  - component: {fileID: -4127079400327847750}
+  - component: {fileID: -6391316404725710491}
   m_Layer: 0
   m_Name: Slug
   m_TagString: Untagged
@@ -83,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 945431086, guid: 01294752b81907048b8ce0f3f586cc59, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9647059, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -180,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitions:
   - {fileID: 5543575046643327948}
-  _speed: 7
+  _speed: 3
 --- !u!114 &5543575046643327948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +214,8 @@ MonoBehaviour:
   - {fileID: 2475038494729942689}
   _damage: 45
   _delay: 3
+  _slugScale: {fileID: -4127079400327847750}
+  _colorChange: {fileID: -6391316404725710491}
 --- !u!114 &2475038494729942689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,3 +242,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitions: []
+--- !u!114 &-4127079400327847750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336475691394488631}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e92ad23c24b55a48b4611527f43b6c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _slugTransform: {fileID: 6768138509857927110}
+  _scale: 0
+  _color: {r: 0.6037736, g: 0, b: 0, a: 0}
+  _speedScale: 2
+  _maxScale: 1.5
+--- !u!114 &-6391316404725710491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336475691394488631}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7384cc027fba44baf65e43a0952480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteRenderer: {fileID: 4324736744042382705}
+  _speed: 0.1

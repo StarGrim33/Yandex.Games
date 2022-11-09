@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d65cfea6e661749afc3392dd3dbd42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 25
+  _health: 50
   _reward: 15
 --- !u!114 &8539259938386380111
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitions:
   - {fileID: 3662271401122594695}
-  _speed: 1
+  _speed: 2
 --- !u!114 &3662271401122594695
 MonoBehaviour:
   m_ObjectHideFlags: 0

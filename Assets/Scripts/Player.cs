@@ -13,12 +13,14 @@ public class Player : MonoBehaviour
     public float startTimeBetweenShots;
     private int _currentWeaponNumber = 0;
     private Weapon _currentWeapon;
-    private int _currentHealth;
+    public int _currentHealth;
     private Animator _animator;
     private float _delay = 2f;
     public int Money { get; private set; }
     public event UnityAction<int, int> HealthChanged;
     public event UnityAction<int> MoneyChanged;
+    public event UnityAction PlayerDead;
+
     private void Start()
     {
         ChangeWeapon(_weapons[_currentWeaponNumber]);
@@ -47,12 +49,8 @@ public class Player : MonoBehaviour
         if (_currentHealth <= 0)
         {
             _animator.Play("Player dead");
-            Invoke("Destroy", _delay);
+            enabled = false;
         }
-    }
-    public void Destroy()
-    {
-        Destroy(gameObject);
     }
 
     public void AddMoney(int money)

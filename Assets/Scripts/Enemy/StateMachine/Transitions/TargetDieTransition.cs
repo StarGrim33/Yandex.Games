@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TargetDieTransition : Transition
 {
+    
     void Update()
     {
-        if (Target == null)
+        if (Target._currentHealth <= 0)
             NeedTransit = true;
     }
 }

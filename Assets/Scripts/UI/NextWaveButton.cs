@@ -7,17 +7,14 @@ public class NextWaveButton : MonoBehaviour
 {
     [SerializeField] private Spawner _spawner;
     [SerializeField] private Button _nextWaveButton;
-
-    private void OnEnable()
+    private void Awake()
     {
         _spawner.AllEnemySpawned += OnAllEnemySpawned;
-        _nextWaveButton.onClick.AddListener(OnNextWaveButtonClick);
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         _spawner.AllEnemySpawned -= OnAllEnemySpawned;
-        _nextWaveButton.onClick.RemoveListener(OnNextWaveButtonClick);
     }
 
     public void OnAllEnemySpawned()
