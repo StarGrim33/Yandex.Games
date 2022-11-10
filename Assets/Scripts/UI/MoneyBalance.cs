@@ -21,4 +21,5 @@ public class MoneyBalance : MonoBehaviour
     {
         _money.text = money.ToString();
     }
+
 }

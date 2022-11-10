@@ -1,26 +1,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEngine.Rendering.DebugUI;
 
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
     [SerializeField] private int _health;
-    [SerializeField] private List<Weapon> _weapons;
+    [SerializeField] public List<Weapon> _weapons;
     [SerializeField] private Transform _shootPoint;
-
+    [HideInInspector]
     private float _timeBetweenShots;
     public float startTimeBetweenShots;
-    private int _currentWeaponNumber = 0;
-    private Weapon _currentWeapon;
-    public int _currentHealth;
+    public int _currentWeaponNumber = 0;
+    [HideInInspector] public Weapon _currentWeapon;
+    [HideInInspector] public int _currentHealth;
     private Animator _animator;
-    private float _delay = 2f;
     public int Money { get; private set; }
     public event UnityAction<int, int> HealthChanged;
     public event UnityAction<int> MoneyChanged;
-    public event UnityAction PlayerDead;
-
+    private void Awake()
+    {
+        Time.timeScale = 0;
+    }
     private void Start()
     {
         ChangeWeapon(_weapons[_currentWeaponNumber]);
