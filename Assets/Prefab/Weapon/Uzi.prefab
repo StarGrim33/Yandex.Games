@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5958615114220662228}
   - component: {fileID: 5958615114220662231}
-  - component: {fileID: 5170184240757895089}
   - component: {fileID: 3126810516328727819}
   m_Layer: 0
   m_Name: Uzi
@@ -86,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5170184240757895089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5958615114220662230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fad7f951f5f7fe045a0a0cc97dd0f9a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damage: 15
-  _speed: 30
 --- !u!114 &3126810516328727819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,9 +98,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _label: "\u0423\u0437\u0438"
-  price: 1900
+  _price: 2100
   _icon: {fileID: 21300000, guid: 5a1cf0c6a1564594baa6422ea4c554a7, type: 3}
-  _isBuyed: 1
+  _isBuyed: 0
   Bullet: {fileID: 0}
   ShotgunBullet: {fileID: 0}
   UziBullet: {fileID: 591261398244039274, guid: 0f4dce7b1aecaca4ab189283248eb753, type: 3}
+  RiffleBullet: {fileID: 0}
+  Damage: 0

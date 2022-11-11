@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 66b260824247a5347872b386cb5deb2b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 194
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a61f0f68d60a4a980ca3001bd5d4a
+      internalID: -1763599460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 320
+        width: 31
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2320c75f8ce60fc40a79d46598d8ccf3
+      internalID: 1091916347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 498
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7650c00401db16e4fa8c7a4da623720b
+      internalID: 925137642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 479
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243da44a1f5d0744fa0747ff1509beb3
+      internalID: 695370705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 451
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d61c42315826b49acc35e080af4fb6
+      internalID: 81415248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 418
+        width: 158
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae6a00f365db674288af93cac16c7aa
+      internalID: -676314056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 485
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cd3bbb18efcd24bb215a2be6ef2c91
+      internalID: -1739738893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_7
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 448
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a6f894acc2bdd4386dc99a0e0d448c
+      internalID: 2098521827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 417
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9229b062639929242b179ba4a3f33f6b
+      internalID: -1997565621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 417
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad2f2847ec76c41a4a8e7cb49ddeec
+      internalID: -661019252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 424
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f761ce9cfa7147b993e2ec37bbf11
+      internalID: -1019374170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5e687bf9350f944b07a1e5253a8006
+      internalID: -1574629973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 368
+        width: 92
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70524d73a5b1614a8abdbb2f86cdf01
+      internalID: 1312264730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_13
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 342
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ed0f8ff2476f41b13e26acc3e98bd
+      internalID: 463736335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 327
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f440d53b4765c439023728a7125115
+      internalID: 704940798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 342
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7cf7e60250b304d83859339a8aa906
+      internalID: 616517985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 223
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83013f21671145e48997b192c67ba673
+      internalID: -1093004646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_17
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 223
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce1aaa106f71044498b33116d4c7cda
+      internalID: -1819251719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 167
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56241d510923f9a4f8d69b6c3862b38b
+      internalID: 1725693001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_19
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 168
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11156805390781544a48ab982129e6f6
+      internalID: -1684039240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_20
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 168
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937969ca9985f014ba716adf06a57574
+      internalID: -969182245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_21
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 104
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086b4a88dc2eb040a32cc0ad1032cf8
+      internalID: 1753879191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 103
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687c9387add00ff4fa71e5408ee78dfa
+      internalID: 944344263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_1: 1091916347
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_9: -661019252
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_19: -1684039240
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_2: 925137642
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_12: 1312264730
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_21: 1753879191
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_3: 695370705
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_4: 81415248
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_17: -1819251719
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_0: -1763599460
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_10: -1019374170
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_11: -1574629973
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_7: 2098521827
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_15: 616517985
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_14: 704940798
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_6: -1739738893
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_8: -1997565621
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_16: -1093004646
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_22: 944344263
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_5: -676314056
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_18: 1725693001
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_20: -969182245
+      png-transparent-rpg-maker-vx-tile-based-video-game-isometric-graphics-in-video-games-and-pixel-art-role-playing-video-game-sprite-angle-furniture-building-PhotoRoom_13: 463736335
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

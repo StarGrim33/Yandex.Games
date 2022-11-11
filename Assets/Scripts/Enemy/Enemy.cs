@@ -5,9 +5,8 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private int _health;
+    [SerializeField] public int _health;
     [SerializeField] private int _reward;
-
     private Player _target;
     public int Reward => _reward;
 
